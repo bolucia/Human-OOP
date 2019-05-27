@@ -14,13 +14,13 @@ public class Anna extends Human {
     @Override
     public void eat(){
         super.eat();
-        weight=weight+2;
+        int weight=getWeight();
+        weight=weight+2;//weight+=2
+        setWeight(weight);
     }
 
     @Override
     public int birthday(){
-        return super.birthday();
-    age=age + 4;
-    return age;
+      int age
     }
 }
